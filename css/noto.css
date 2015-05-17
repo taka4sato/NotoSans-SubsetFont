@@ -1,44 +1,88 @@
 @font-face {
-    font-family: 'Noto Sans Chinese';
+    font-family: 'Noto Sans Chinese 8000';
     font-style: normal;
     font-weight: 400;
-    src: url('../font/NotoSansCJKsc-Light-l.eot'); /* IE9 Compat Modes */
-    src: url('../font/NotoSansCJKsc-Light-l.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../font/NotoSansCJKsc-Light-l.woff') format('woff'), /* Modern Browsers */
-    url('../font/NotoSansCJKsc-Light-l.ttf')  format('truetype'); /* Safari, Android, iOS */
+    src: url('../font_zh-ch_8000/NotoSansCJKsc-Light-8000.eot'); /* IE9 Compat Modes */
+    src: url('../font_zh-ch_8000/NotoSansCJKsc-Light-8000.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font_zh-ch_8000/NotoSansCJKsc-Light-8000.woff') format('woff'), /* Modern Browsers */
+    url('../font_zh-ch_8000/NotoSansCJKsc-Light-8000.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 
 @font-face {
-    font-family: 'Noto Sans Chinese';
+    font-family: 'Noto Sans Chinese 8000';
     font-style: normal;
     font-weight: 500;
-    src: url('../font/NotoSansCJKsc-Regular-l.eot');
-    src: url('../font/NotoSansCJKsc-Regular-l.eot?#iefix') format('embedded-opentype'),
-    url('../font/NotoSansCJKsc-Regular-l.woff') format('woff'),
-    url('../font/NotoSansCJKsc-Regular-l.ttf')  format('truetype');
+    src: url('../font_zh-ch_8000/NotoSansCJKsc-Regular-8000.eot');
+    src: url('../font_zh-ch_8000/NotoSansCJKsc-Regular-8000.eot?#iefix') format('embedded-opentype'),
+    url('../font_zh-ch_8000/NotoSansCJKsc-Regular-8000.woff') format('woff'),
+    url('../font_zh-ch_8000/NotoSansCJKsc-Regular-8000.ttf')  format('truetype');
 }
 @font-face {
-    font-family: 'Noto Sans Chinese';
+    font-family: 'Noto Sans Chinese 8000';
     font-style: normal;
     font-weight: 700;
-    src: url('../font/NotoSansCJKsc-Bold-l.eot');
-    src: url('../font/NotoSansCJKsc-Bold-l.eot?#iefix') format('embedded-opentype'),
-    url('../font/NotoSansCJKsc-Bold-l.woff') format('woff'),
-    url('../font/NotoSansCJKsc-Bold-l.ttf')  format('truetype');
+    src: url('../font_zh-ch_8000/NotoSansCJKsc-Bold-8000.eot');
+    src: url('../font_zh-ch_8000/NotoSansCJKsc-Bold-8000.eot?#iefix') format('embedded-opentype'),
+    url('../font_zh-ch_8000/NotoSansCJKsc-Bold-8000.woff') format('woff'),
+    url('../font_zh-ch_8000/NotoSansCJKsc-Bold-8000.ttf')  format('truetype');
 }
 
-.noto {
-    font-family: 'Noto Sans Chinese';
+@font-face {
+    font-family: 'Noto Sans Chinese 3500';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font_zh-cn_3500/NotoSansCJKsc-Light-3500.eot'); /* IE9 Compat Modes */
+    src: url('../font_zh-cn_3500/NotoSansCJKsc-Light-3500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font_zh-cn_3500/NotoSansCJKsc-Light-3500.woff') format('woff'), /* Modern Browsers */
+    url('../font_zh-cn_3500/NotoSansCJKsc-Light-3500.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 
-.light {
+@font-face {
+    font-family: 'Noto Sans Chinese 3500';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../font_zh-cn_3500/NotoSansCJKsc-Regular-3500.eot'); /* IE9 Compat Modes */
+    src: url('../font_zh-cn_3500/NotoSansCJKsc-Regular-3500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font_zh-cn_3500/NotoSansCJKsc-Regular-3500.woff') format('woff'), /* Modern Browsers */
+    url('../font_zh-cn_3500/NotoSansCJKsc-Regular-3500.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'Noto Sans Chinese 3500';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../font_zh-cn_3500/NotoSansCJKsc-Bold-3500.eot'); /* IE9 Compat Modes */
+    src: url('../font_zh-cn_3500/NotoSansCJKsc-Bold-3500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font_zh-cn_3500/NotoSansCJKsc-Bold-3500.woff') format('woff'), /* Modern Browsers */
+    url('../font_zh-cn_3500/NotoSansCJKsc-Bold-3500.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+.noto-8000 .light {
+    font-family: 'Noto Sans Chinese 8000';
     font-weight: 400;
 }
 
-.regular {
+.noto-8000 .regular {
+     font-family: 'Noto Sans Chinese 8000';
+     font-weight: 500;
+ }
+
+.noto-8000 .bold {
+    font-family: 'Noto Sans Chinese 8000';
+    font-weight: 700;
+}
+
+.noto-3500 .light {
+    font-family: 'Noto Sans Chinese 3500';
+    font-weight: 400;
+}
+
+.noto-3500 .regular {
+    font-family: 'Noto Sans Chinese 3500';
     font-weight: 500;
 }
 
-.bold {
+.noto-3500 .bold {
+    font-family: 'Noto Sans Chinese 3500';
     font-weight: 700;
 }
