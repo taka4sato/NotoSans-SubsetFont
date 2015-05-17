@@ -6,4 +6,5 @@
 ### 内容物
 | Directory名 | 説明 |
 | -------------------- |  -------------------- |
-| font | Noto Sans中国語簡体字を、通用规范汉字表の8000文字でSubset化したwoff/ttf/eotフォント |
+| font_zh-cn_8000 | Noto Sans中国語簡体字を通用规范汉字表の1-3級の8000文字でSubset化したwoff/ttf/eot font |
+| font_zh-cn_3500 | Noto Sans中国語簡体字を通用规范汉字表の1級のみの3500文字でSubset化したwoff/ttf/eot font |
