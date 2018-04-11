@@ -11,5 +11,5 @@
 
 ### 補足
 * cssで[font-faceにunicode-rangeという値をSet](https://spyweb.media/2017/09/13/font-face-subset-synthesis/)することで、fontのSubset化も可能ですが、以下のような懸念があります
-  * Downloadするfont fileのサイズが小さくなる訳では無い(あくまでBrowser側でsubset化を行います)
-  * Browserの[対応/非対応がある可能性がある](https://caniuse.com/#search=unicode-range)
+  * Downloadするfont fileのサイズが小さくなる訳では無い(あくまでBrowser側でsubset化を行います)
+  * Browserの[対応/非対応がある可能性がある](https://caniuse.com/#search=unicode-range)
